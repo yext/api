@@ -51,10 +51,10 @@ import proto "github.com/gogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
 
-import k8s_io_apimachinery_pkg_api_resource "k8s.io/apimachinery/pkg/api/resource"
-import k8s_io_apimachinery_pkg_apis_meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+import k8s_io_apimachinery_pkg_api_resource "github.com/yext/apimachinery/pkg/api/resource"
+import k8s_io_apimachinery_pkg_apis_meta_v1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
 
-import k8s_io_api_core_v1 "k8s.io/api/core/v1"
+import k8s_io_api_core_v1 "github.com/yext/api/core/v1"
 
 import strings "strings"
 import reflect "reflect"

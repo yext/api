@@ -17,11 +17,11 @@ limitations under the License.
 package v1beta1
 
 import (
-	appsv1beta1 "k8s.io/api/apps/v1beta1"
-	"k8s.io/api/core/v1"
-	"k8s.io/apimachinery/pkg/api/resource"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/util/intstr"
+	appsv1beta1 "github.com/yext/api/apps/v1beta1"
+	"github.com/yext/api/core/v1"
+	"github.com/yext/apimachinery/pkg/api/resource"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/util/intstr"
 )
 
 // describes the attributes of a scale subresource

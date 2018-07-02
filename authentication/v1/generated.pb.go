@@ -41,7 +41,7 @@ import proto "github.com/gogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
 
-import k8s_io_apimachinery_pkg_types "k8s.io/apimachinery/pkg/types"
+import k8s_io_apimachinery_pkg_types "github.com/yext/apimachinery/pkg/types"
 
 import github_com_gogo_protobuf_sortkeys "github.com/gogo/protobuf/sortkeys"
 

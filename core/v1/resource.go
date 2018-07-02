@@ -17,7 +17,7 @@ limitations under the License.
 package v1
 
 import (
-	"k8s.io/apimachinery/pkg/api/resource"
+	"github.com/yext/apimachinery/pkg/api/resource"
 )
 
 // Returns string version of ResourceName.

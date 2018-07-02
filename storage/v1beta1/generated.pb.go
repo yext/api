@@ -40,7 +40,7 @@ import proto "github.com/gogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
 
-import k8s_io_api_core_v1 "k8s.io/api/core/v1"
+import k8s_io_api_core_v1 "github.com/yext/api/core/v1"
 
 import github_com_gogo_protobuf_sortkeys "github.com/gogo/protobuf/sortkeys"
 

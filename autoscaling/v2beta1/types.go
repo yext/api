@@ -17,9 +17,9 @@ limitations under the License.
 package v2beta1
 
 import (
-	"k8s.io/api/core/v1"
-	"k8s.io/apimachinery/pkg/api/resource"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/api/core/v1"
+	"github.com/yext/apimachinery/pkg/api/resource"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
 )
 
 // CrossVersionObjectReference contains enough information to let you identify the referred resource.
